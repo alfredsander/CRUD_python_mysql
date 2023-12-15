@@ -5,7 +5,7 @@ class Cconexion:
     def conexionBaseDeDatos():
         try:
             conexion = mysql.connector.connect(user='root',
-                                               password='123456789',
+                                               password='',
                                                host='127.0.0.1',
                                                database='clientesdb',
                                                port='3306')
